@@ -1,132 +1,333 @@
-<!DOCTYPE HTML>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sean Chamanara — WordPress Developer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Sean Chamanara</div>
+      <div class="nav-links">
+        <a href="#projects">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
 
-<html>
-	<head>
-		<title>Sean Chamanara - Front End Developer</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/seanc.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+    <div class="hero">
+      <div class="hero-content">
+        <h1>Building digital experiences that perform and impress.</h1>
+        <p>
+          8+ years crafting high-traffic WordPress environments for
+          multinational brands. I bring technical precision and a designer's eye
+          to every project.
+        </p>
+        <div class="hero-tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">PHP</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">UI/UX Design</span>
+          <span class="tag">WCAG Accessibility</span>
+          <span class="tag">REST APIs</span>
+          <span class="tag">Multisite</span>
+        </div>
+      </div>
+    </div>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="divided">
+    <section id="projects">
+      <div class="section-label">Selected work</div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-thumb">
+            <img
+              src="images/joico-kate-clapper-square.png"
+              alt="Joico project screenshot"
+              onerror="
+                this.parentElement.innerHTML =
+                  '<div class=\'placeholder-img\'><svg width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1.5\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><path d=\'m21 15-5-5L5 21\'/></svg>joico.jpg</div>'
+              "
+              style="
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 8px;
+                display: block;
+              "
+            />
+          </div>
+          <div class="project-type">WordPress · Multisite · eCommerce</div>
+          <div class="project-name">Joico</div>
+          <div class="project-desc">
+            Multinational hair care brand. Custom PHP theme development, WCAG
+            audits, BazaarVoice integration, and regional localization across
+            South America, Canada, and Australia.
+          </div>
+          <a class="project-link" href="https://www.joico.com/" target="_blank"
+            >joico.com ↗</a
+          >
+        </div>
 
-				<!-- One -->
-					<section class="client-section-1 banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
-						<div class="content">
-							<h1>Sean Chamanara</h1>
-							<p class="major">"Every great brand has a story—I just help tell it on the web. Over 8 years, I've crafted digital narratives for everyone from Disney to Joico. I wield both code and creativity like a paintbrush, all while obsessing over WCAG accessibility "</p>
-						</div>
-						<div class="image">
-							<img src="images/dangling-corded-black-phone.jpg" alt="" />
-						</div>
-					</section>
-					<section class="client-section-2 spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
-						<div class="content">
-							<h2 class="client-section-heading">Joico</h2>
-							<p class="client-section-subheading">Joico has shaped the beauty industry for decades—a legacy of artistry and innovation. <strong class="white-font-color">My role?</strong> Build a digital experience worthy of it. Thoughtful design, timeless glamour, and a website that finally does their story justice. Proud to have helped bring that heritage to life online."</p>
-							<ul class="actions stacked">
-								<li ><a href="https://www.joico.com/" target="_blank" class="button client-section-button">Visit Site</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/joico-kate-clapper-square.png" alt="joico home page with kate hudson" />
-						</div>
-					</section>
+        <div class="project-card">
+          <div class="project-thumb">
+            <img
+              src="images/sexy-hair-square.png"
+              alt="SexyHair project screenshot"
+              onerror="
+                this.parentElement.innerHTML =
+                  '<div class=\'placeholder-img\'><svg width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1.5\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><path d=\'m21 15-5-5L5 21\'/></svg>sexyhair.jpg</div>'
+              "
+              style="
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 8px;
+                display: block;
+              "
+            />
+          </div>
+          <div class="project-type">WordPress · Architecture · Design</div>
+          <div class="project-name">SexyHair</div>
+          <div class="project-desc">
+            Designed and implemented the full multinational site — homepage,
+            blog, and product page architecture. Custom PHP, WCAG compliance,
+            interactive quizzes, and reviews.
+          </div>
+          <a
+            class="project-link"
+            href="https://www.sexyhair.com/"
+            target="_blank"
+            >sexyhair.com ↗</a
+          >
+        </div>
 
-				<!-- Three -->
-					<section class="client-section-3 spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2 class="client-section-heading client-section-heading-align-right">Sexy Hair</h2>
-							<p class="client-section-subheading">"Sexy Hair brought the volume—I brought the vision. Built their multinational site from scratch: custom functionality, interactive quizzes, product reviews, and WCAG compliance across every device. Because a brand this bold deserves a digital presence that's just as unforgettable."</p>
-							<ul class="actions stacked">
-								<li><a href="https://www.sexyhair.com/" target="_blank" class="button client-section-button">Visit Site</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/sexy-hair-square.png" alt="sexy hair home page" />
-						</div>
-					</section>
+        <div class="project-card">
+          <div class="project-thumb">
+            <img
+              src="images/terra-vista-square.png"
+              alt="Terra Vista project screenshot"
+              onerror="
+                this.parentElement.innerHTML =
+                  '<div class=\'placeholder-img\'><svg width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1.5\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><path d=\'m21 15-5-5L5 21\'/></svg>terravista.jpg</div>'
+              "
+              style="
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 8px;
+                display: block;
+              "
+            />
+          </div>
+          <div class="project-type">WordPress · Property · Analytics</div>
+          <div class="project-name">Terra Vista</div>
+          <div class="project-desc">
+            Rental property site with tour booking integration, property
+            galleries, and interactive floor plans. Analytics tracking to inform
+            ongoing site optimizations.
+          </div>
+          <a
+            class="project-link"
+            href="https://terravistatejon.com/"
+            target="_blank"
+            >terravistatejon.com ↗</a
+          >
+        </div>
 
-				<!-- Four -->
-					<section class="client-section-4 spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2 class="client-section-heading">Terra Vista</h2>
-							<p class="client-section-subheading">"Designed and developed the Terra Vista at Tejon rental site featuring interactive floor plans, property galleries, and seamless tour booking. Provided product management support to guide feature development based on user behavior insights."</p>
-							<ul class="actions stacked">
-								<li><a href="https://terravistatejon.com/" target="_blank" class="button client-section-button">Visit Site</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/terra-vista-square.png" alt="terra vista apartments" />
-						</div>
-					</section>
+        <div class="project-card">
+          <div class="project-thumb">
+            <img
+              src="images/tejon-outlet-square.png"
+              alt="Tejon Outlets project screenshot"
+              onerror="
+                this.parentElement.innerHTML =
+                  '<div class=\'placeholder-img\'><svg width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1.5\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><path d=\'m21 15-5-5L5 21\'/></svg>tejon.jpg</div>'
+              "
+              style="
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 8px;
+                display: block;
+              "
+            />
+          </div>
+          <div class="project-type">WordPress · Retail · Events</div>
+          <div class="project-name">Tejon Outlets</div>
+          <div class="project-desc">
+            Comprehensive retail destination site featuring store directories,
+            event calendars, blog, and travel information for visitors.
+          </div>
+          <a
+            class="project-link"
+            href="https://tejonoutlets.com/"
+            target="_blank"
+            >tejonoutlets.com ↗</a
+          >
+        </div>
+      </div>
+    </section>
 
-				<!-- Five -->
-					<section class="client-section-5 spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2 class="client-section-heading">Outlets at Tejon</h2>
+    <section id="skills">
+      <div class="section-label">Technical skills</div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Languages</h4>
+          <div class="skill-list">
+            PHP<br />JavaScript (ES6+)<br />HTML5 · CSS3<br />jQuery
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Platforms & CMS</h4>
+          <div class="skill-list">
+            WordPress (Multisite)<br />Custom Theme Dev<br />Advanced Custom
+            Fields<br />Shopify
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Tools & Workflow</h4>
+          <div class="skill-list">
+            Git · REST APIs<br />Figma · Wireframing<br />Google Analytics<br />Browser
+            DevTools
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Design & Accessibility</h4>
+          <div class="skill-list">
+            UI/UX Design<br />WCAG 2.1 AA Audits<br />Responsive Design
+          </div>
+        </div>
+      </div>
+    </section>
 
-							
-							<p class="client-section-subheading">"Built a comprehensive shopping destination site for Outlets at Tejon: store directories, event calendars, and an engaging brand presence. Contributed product management support to guide feature development informed by user behavior."</p>
-							<ul class="actions stacked">
-								<li><a href="https://tejonoutlets.com/" target="_blank" class="button client-section-button">Visit Site</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/tejon-outlet-square.png" alt="tejon outlets" />
-						</div>
-					</section>
+    <section id="experience">
+      <div class="section-label">Experience</div>
+      <div class="exp-list">
+        <div class="exp-item">
+          <div class="exp-dates">2021 – 2025</div>
+          <div>
+            <div class="exp-role">Lead Developer & Project Manager</div>
+            <div class="exp-company">LAS Agency</div>
+            <ul class="exp-bullets">
+              <li>
+                Led end-to-end WordPress development for multinational hair care
+                brands including Joico and SexyHair
+              </li>
+              <li>
+                Modernized legacy sites with WCAG standards and Core Web Vitals
+                optimization
+              </li>
+              <li>
+                Served as primary technical liaison between stakeholders and
+                development teams
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="exp-item">
+          <div class="exp-dates">2019 – 2020</div>
+          <div>
+            <div class="exp-role">Web Master</div>
+            <div class="exp-company">Cyberset</div>
+            <ul class="exp-bullets">
+              <li>
+                Managed full-cycle web development projects across client
+                portfolios
+              </li>
+              <li>
+                Implemented responsive design and WCAG standards to improve UX
+                and SEO
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="exp-item">
+          <div class="exp-dates">2017 – 2019</div>
+          <div>
+            <div class="exp-role">Web Developer</div>
+            <div class="exp-company">Disney ABC</div>
+            <ul class="exp-bullets">
+              <li>
+                Built high-visibility event marketing sites serving millions of
+                users
+              </li>
+              <li>
+                Maintained 100% uptime during critical live marketing campaigns
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="contact">
+      <div class="section-label">Get in touch</div>
+      <div class="contact-wrap">
+        <p>
+          Available for contract and full-time opportunities. If you have a
+          project in mind or just want to connect, send a message below.
+        </p>
+        <div class="contact-fields">
+          <input type="text" id="c-name" placeholder="Your name" />
+          <input type="email" id="c-email" placeholder="Email address" />
+          <textarea id="c-msg" placeholder="Your message"></textarea>
+        </div>
+        <button class="send-btn" onclick="handleSend()">Send message</button>
+        <div class="sent-msg" id="sent-msg">
+          Thanks for reaching out — I'll be in touch soon!
+        </div>
+      </div>
+    </section>
 
-				<!-- Seven -->
-					<section class="wrapper style1 align-center sc-form">
-						<div class="inner medium">
-							<h2>Get in touch</h2>
-							<form method="post" action="https://formspree.io/f/xpqyknga">
-								<div class="fields">
-									<div class="field half">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" value="" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" value="" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="6"></textarea>
-									</div>
-								</div>
-								<ul class="actions special">
-									<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
-								</ul>
-							</form>
+    <footer>
+      <div class="footer-note">© 2026 Sean Chamanara</div>
+      <div class="footer-links">
+        <a href="http://linkedin.com/in/seanchamanara" target="_blank"
+          >LinkedIn</a
+        >
+        <a
+          href="images/sc-resume-2026.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Resume</a
+        >
+      </div>
+    </footer>
 
-						</div>
-					</section>
+    <script>
+      function handleSend() {
+        const name = document.getElementById('c-name').value.trim();
+        const email = document.getElementById('c-email').value.trim();
+        const msg = document.getElementById('c-msg').value.trim();
 
-				<!-- Footer -->
-					<footer class="wrapper style1 align-center sc-footer">
-						<div class="inner sc-footer">
+        if (!name || !email || !msg) {
+          alert('Please fill in all fields.');
+          return;
+        }
 
-							<p class="sc-copyright">Sean Chamanara - 2026&copy; </p>
-						</div>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+        fetch('https://formspree.io/f/xpqyknga', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name, email, message: msg }),
+        })
+          .then((res) => {
+            if (res.ok) {
+              document.getElementById('sent-msg').style.display = 'block';
+              document.getElementById('c-name').value = '';
+              document.getElementById('c-email').value = '';
+              document.getElementById('c-msg').value = '';
+            } else {
+              alert('Something went wrong. Please try again.');
+            }
+          })
+          .catch(() => alert('Network error. Please try again.'));
+      }
+    </script>
+  </body>
 </html>
